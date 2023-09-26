@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+</head>
+<body>
+    <h1>Food Orders</h1>
+    <ul id="orderList">
+        <!-- Orders will be displayed here -->
+    </ul>
+
+    <script>
+        // JavaScript to fetch and display food orders
+        fetch('/api/orders')
+            .then(response => response.json())
+            .then(data => {
+                const orderList = document.getElementById('orderList');
+                data.forEach(order => {
+                    const listItem = document

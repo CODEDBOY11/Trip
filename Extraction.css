@@ -1,0 +1,61 @@
+.page-title {
+  color: #ff6600;
+  text-align: center;
+  font-size: 32px; /* Example font size */
+  margin-top: 20px; /* Example margin */
+}
+
+body{
+  background-color:#000;
+  text-align:center;
+  word-spacing: 3px;
+  font-family: courier;
+  font-style: bold;
+  margin: 0;
+  padding: 0;
+   color: #fff; /* White text */
+}
+
+/* Add a border to the image */
+img {
+  border: 2px solid red
+  padding: 10px;
+  width: 100%;
+  height: 50%;
+}
+.button{
+  height: 60px;
+  width: 200px;
+  color: #ccc;
+  
+  
+}
+.trrr{
+  height: 100%;
+  width: 100%;
+}
+a{
+  font-size: 30px;
+  font-family: courier new;
+}
+p{
+  font-size: 20px;
+}
+h1{
+  font-size: 50px;
+}
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio (height/width) */
+    padding-top: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
